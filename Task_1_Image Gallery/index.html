@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="gallery-container">
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="nature">Nature</button>
+      <button class="filter-btn" data-category="city">City</button>
+      <button class="filter-btn" data-category="animals">Animals</button>
+    </div>
+    <div class="gallery">
+      <div class="gallery-item" data-category="nature">
+        <img src="https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?cs=srgb&dl=daylight-environment-forest-459225.jpg&fm=jpg" alt="Nature 1">
+      </div>
+      <div class="gallery-item" data-category="city">
+        <img src="https://th.bing.com/th/id/OIP.GRRacnNXK1fzG0x7WqTyVwHaEo?rs=1&pid=ImgDetMain" alt="City 1">
+      </div>
+      <div class="gallery-item" data-category="animals">
+        <img src="https://th.bing.com/th/id/OIP.9xkyJ_Sl7KsvzLQcwDyZhAHaE7?rs=1&pid=ImgDetMain" alt="Animal 1">
+      </div>
+      <div class="gallery-item" data-category="nature">
+        <img src="https://th.bing.com/th/id/R.c5ee70162b03fc77ff63cbe9e4ebd277?rik=Y%2fj2AOtIFeTgKg&riu=http%3a%2f%2f3.bp.blogspot.com%2f-Mf0HnLsXRGg%2fTyi-KvqFPMI%2fAAAAAAAABlQ%2fb6wE-yBD7l8%2fs1600%2fn4.jpg&ehk=io6FWFR5rxXwOJ7ZhYeNxy9QB8ZhdZU6dC5FGW%2fgXdM%3d&risl=&pid=ImgRaw&r=0" alt="Nature 2">
+      </div>
+      <div class="gallery-item" data-category="city">
+        <img src="https://d3jkudlc7u70kh.cloudfront.net/top-10-largest-cities-in-america.jpg" alt="City 2">
+      </div>
+      <div class="gallery-item" data-category="animals">
+        <img src="https://images.pexels.com/photos/198162/pexels-photo-198162.jpeg?cs=srgb&dl=adorable-animal-photography-animals-198162.jpg&fm=jpg" alt="Animal 2">
+      </div>
+    </div>
+  </div>
+
+  <div class="lightbox">
+    <button class="lightbox-btn close-btn">×</button>
+    <button class="lightbox-btn prev-btn">❮</button>
+    <img class="lightbox-img" src="" alt="Lightbox Image">
+    <button class="lightbox-btn next-btn">❯</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
